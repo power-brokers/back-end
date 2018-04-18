@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/power-brokers/back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/power-brokers/back-end/issues"
+  },
+  "homepage": "https://github.com/power-brokers/back-end#readme",
+  "devDependencies": {
+    "knex": "^0.14.6"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.1"
+  }
+}
