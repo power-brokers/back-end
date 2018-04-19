@@ -1,11 +1,20 @@
-# slap-dash
-The impromptu band maker
+# Power Brokers
 
 ## Dependencies
-* [postGIS] (http://postgis.net/)
+* [postgreSQL] (https://www.postgresql.org/)
 
 ## Installation
-from root folder
+you need to install postgreSQL
+* [mac] (http://postgresapp.com/)
+
+[install all the npm packages]
+from root
 ```command
-$ brew install postgis
+$ npm install
+```
+
+[initiating the database]
+from root/db
+```command
+$ psql -f schema.sql
 ```
